@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<!-- saved from url=(0088)https://docs.microsoft.com/ru-ru/learn/modules/principles-cloud-computing/1-introduction -->
+<html class="is-full hasPageActions hasBreadcrumb has-default-focus theme-light" lang="ru-ru" dir="ltr" data-css-variable-support="true" data-authenticated="false" data-auth-status-determined="true" data-target="docs" x-ms-format-detection="none" data-js-focus-visible=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	
+	
+	
+	
+			
+		
+		
+
+	
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="https://docs.microsoft.com/ru-ru/learn/modules/principles-cloud-computing/7-summary" rel="canonical">
+	<title>Введение - Learn | Microsoft Docs</title>
+
+		<link rel="stylesheet" href="./Введение - Learn _ Microsoft Docs_files/3ecc35a9.site-ltr.css">
+
+	<link rel="stylesheet" href="./Введение - Learn _ Microsoft Docs_files/72a4403f.moduleunitpage.css">
+
+
+	<script async="" defer="" crossorigin="anonymous" src="./Введение - Learn _ Microsoft Docs_files/lux.js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/analytics.js"></script><script>
+	var msDocs = {
+		data: {
+			timeOrigin: Date.now(),
+			contentLocale: 'ru-ru',
+			contentDir: 'ltr',
+			userLocale: 'ru-ru',
+			userDir: 'ltr',
+			pageTemplate: 'ModuleUnit',
+			brand: '',
+			context: {
+
+			},
+			hasBinaryRating: false,
+			hasGithubIssues: false,
+			showFeedbackReport: false,
+			enableTutorialFeedback: false,
+			feedbackSystem: 'None',
+			feedbackGitHubRepo: '',
+			feedbackProductUrl: '',
+			contentGitUrl: '',
+			extendBreadcrumb: false,
+			isEditDisplayable: false,
+			hideViewSource: false,
+			hasPageActions: true,
+			hasBookmark: true,
+			hasShare: false
+		},
+		functions:{}
+	};
+	</script>
+	<script nomodule="" src="./Введение - Learn _ Microsoft Docs_files/bluebird.min.js" integrity="sha384-aD4BDeDGeLXLpPK4yKeqtZQa9dv4a/7mQ+4L5vwshIYH1Mc2BrXvHd32iHzYCQy5" crossorigin="anonymous"></script>
+	<script nomodule="" src="./Введение - Learn _ Microsoft Docs_files/fetch.umd.min.js" integrity="sha384-EQIXrC5K2+7X8nGgLkB995I0/6jfAvvyG1ieZ+WYGxgJHFMD/alsG9fSDWvzb5Y1" crossorigin="anonymous"></script>
+	<script nomodule="" src="./Введение - Learn _ Microsoft Docs_files/template.min.js" integrity="sha384-1zKzI6ldTVHMU7n0W2HpE/lhHI+UG4D9IIaxbj3kT2UhCWicdTuJkTtnKuu0CQzN" crossorigin="anonymous"></script>
+	<script nomodule="" src="./Введение - Learn _ Microsoft Docs_files/url.min.js" integrity="sha384-vn7xBMtpSTfzaTRWxj0kVq0UcsbBrTOgZ/M1ISHqe1V358elYva+lfiEC+T8jLPc" crossorigin="anonymous"></script>
+	<script nomodule="" src="./Введение - Learn _ Microsoft Docs_files/e482e449.index-polyfills.js"></script>
+		<script src="./Введение - Learn _ Microsoft Docs_files/a31e48a0.index-docs.js"></script><style></style><script src="./Введение - Learn _ Microsoft Docs_files/jsll-4.js" async="" defer=""></script>
+<script async="" src="./Введение - Learn _ Microsoft Docs_files/t.js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(1).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(2).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(3).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(4).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(5).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(6).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(7).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(8).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(9).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(10).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(11).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(12).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(13).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(14).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(15).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(16).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(17).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(18).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(19).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(20).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(21).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(22).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(23).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(24).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(25).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(26).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(27).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(28).js"></script><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="Введение - Learn"><meta property="og:type" content="website"><meta property="og:url" content="https://docs.microsoft.com/ru-ru/learn/modules/principles-cloud-computing/1-introduction"><meta property="og:description" content="Введение"><meta property="og:image" content="https://docs.microsoft.com/en-us/media/logos/logo-ms-social.png"><meta property="og:image:alt" content="Microsoft Logo"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@docsmsft"><meta name="uid" content="learn.principles-cloud-computing.1-motivation"><meta name="page_type" content="learn"><meta name="page_kind" content="unit"><meta name="ROBOTS" content="noindex"><meta name="azure_sandbox" content="false"><meta name="description" content="Введение"><meta name="ms.date" content="09/24/2018"><meta name="author" content="patridge"><meta name="ms.author" content="adpatrid"><meta name="ms.topic" content="interactive-tutorial"><meta name="ms.prod" content="learning-azure"><meta name="ROBOTS" content="NOINDEX"><meta name="ms.openlocfilehash" content="b775a71c6be8ff8771dee4a6eb79d1c03e583be7"><meta name="ms.sourcegitcommit" content="072a385f3a30c04678777e7fa18989533303f879"><meta name="ms.translationtype" content="HT"><meta name="ms.contentlocale" content="ru-RU"><meta name="ms.lasthandoff" content="05/14/2020"><meta name="ms.locfileid" content="83389688"><meta name="localization_scopes" content="de-de"><meta name="localization_scopes" content="es-es"><meta name="localization_scopes" content="fr-fr"><meta name="localization_scopes" content="it-it"><meta name="localization_scopes" content="ru-ru"><meta name="localization_scopes" content="pt-br"><meta name="localization_scopes" content="ja-jp"><meta name="localization_scopes" content="ko-kr"><meta name="localization_scopes" content="zh-cn"><meta name="localization_scopes" content="zh-tw"><meta name="localization_scopes" content="cs-cz"><meta name="localization_scopes" content="hu-hu"><meta name="localization_scopes" content="nl-nl"><meta name="localization_scopes" content="pl-pl"><meta name="localization_scopes" content="pt-pt"><meta name="localization_scopes" content="tr-tr"><meta name="localization_scopes" content="sv-se"><meta name="breadcrumb_path" content="/learn/breadcrumb/toc.json"><meta name="clicktale" content="true"><meta name="uhfHeaderId" content="MSDocsHeader-Learn"><meta name="search.ms_sitename" content="Docs"><meta name="search.ms_docsetname" content="learn-pr"><meta name="locale" content="ru-ru"><meta name="site_name" content="Docs"><meta name="search.ms_product" content="Docs"><meta name="depot_name" content="Docs.learn-pr"><meta name="updated_at" content="2020-05-18 03:43 PM"><meta name="document_id" content="efb4208b-2a5d-ec30-3cc5-f3ed1a7b8453"><meta name="document_version_independent_id" content="28b97bf0-3657-4119-f129-62cf576a7e38"><meta name="original_ref_skeleton_git_url" content="https://github.com/MicrosoftDocs/learn-pr.ru-RU/blob/live/learn-pr/azure/principles-cloud-computing/1-introduction.yml"><meta name="ref_skeleton_gitcommit" content="https://github.com/MicrosoftDocs/learn-pr.ru-RU/blob/33ebc92a82b0b3631092c85a3e150933dead7495/learn-pr/azure/principles-cloud-computing/1-introduction.yml"><meta name="unit_completion_type" content="view"><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(29).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(30).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(31).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(32).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(33).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(34).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(35).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(36).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(37).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(38).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(39).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(40).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(41).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(42).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(43).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(44).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(45).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(46).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(47).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(48).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(49).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(50).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(51).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(52).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(53).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(54).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(55).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(56).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(57).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(58).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(59).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(60).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(61).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(62).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(63).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(64).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(65).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(66).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(67).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(68).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(69).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(70).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(71).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(72).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(73).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(74).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(75).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(76).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(77).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(78).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(79).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(80).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(81).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(82).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(83).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(84).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(85).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(86).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(87).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(88).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(89).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(90).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(91).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(92).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(93).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(94).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(95).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(96).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(97).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(98).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(99).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(100).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(101).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(102).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(103).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(104).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(105).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(106).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(107).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(108).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(109).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(110).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(111).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(112).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(113).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(114).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(115).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(116).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(117).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(118).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(119).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(120).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(121).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(122).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(123).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(124).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(125).js"></script><script async="" src="./Введение - Learn _ Microsoft Docs_files/t(126).js"></script><script async="" src="https://web.vortex.data.microsoft.com/collect/v1/t.js?ver=%272.1%27&amp;name=%27Ms.Webi.PageAction%27&amp;time=%272020-05-25T22%3A37%3A33.673Z%27&amp;os=%27Windows%27&amp;appId=%27JS%3ADocs%27&amp;-ver=%271.0%27&amp;-impressionGuid=%27f8929c73-d9f1-4f9f-92bf-d9552cc8e6de%27&amp;-pageName=%27efb4208b-2a5d-ec30-3cc5-f3ed1a7b8453%27&amp;-uri=%27https%3A%2F%2Fdocs.microsoft.com%2Fru-ru%2Flearn%2Fmodules%2Fprinciples-cloud-computing%2F1-introduction%27&amp;-pageTags=%27%7B%22date%22%3A%2209%2F24%2F2018%22%2C%22author%22%3A%22patridge%22%2C%22pgauth%22%3A%22adpatrid%22%2C%22pgtop%22%3A%22interactive-tutorial%22%2C%22product%22%3A%22learning-azure%22%2C%22translationtype%22%3A%22HT%22%2C%22lasthandoff%22%3A%2205%2F14%2F2020%22%2C%22locfileid%22%3A%2283389688%22%2C%22depotname%22%3A%22Docs.learn-pr%22%2C%22publishtime%22%3A%222020-05-18%2003%3A43%20PM%22%2C%22document_version_independent_id%22%3A%2228b97bf0-3657-4119-f129-62cf576a7e38%22%2C%22contentlocale%22%3A%22ru-ru%22%2C%22highContrast%22%3A%22false%22%2C%22metaTags%22%3A%7B%7D%7D%27&amp;-contentVer=%272.0%27&amp;-market=%27ru-ru%27&amp;-pageType=%27learn%27&amp;-actionType=%27O%27&amp;-behavior=300&amp;-content=%27%5B%7B%22event%22%3A%22page-focus-changed%22%2C%22value%22%3A%22blur%22%7D%5D%27&amp;*baseType=%27Ms.Content.PageAction%27&amp;*timeToAction=3293297&amp;*cookieEnabled=true&amp;*isJs=true&amp;*title=%27%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20-%20Learn%20%7C%20Microsoft%20Docs%27&amp;*isLoggedIn=false&amp;*isManual=true&amp;*referrerUri=%27https%3A%2F%2Fdocs.microsoft.com%2Fru-ru%2Flearn%2Fmodules%2Fprinciples-cloud-computing%2F2-what-is-cloud-computing%27&amp;ext-javascript-ver=%271.1%27&amp;ext-javascript-libVer=%274.2.14%27&amp;ext-javascript-domain=%27docs.microsoft.com%27&amp;ext-javascript-msfpc=%27GUID%3D9de9b1f189c04dce9a195d6627555a06%26HASH%3D9de9%26LV%3D202005%26V%3D4%26LU%3D1590343194486%27&amp;ext-javascript-userConsent=false&amp;ext-javascript-anid=%27A%3D8A19B60B77C771A23A73D587FFFFFFFF%27&amp;ext-user-localId=%27t%3A02371F7998A16EAD195B11AD99CA6F56%27&amp;$mscomCookies=false"></script><script async="" src="https://web.vortex.data.microsoft.com/collect/v1/t.js?ver=%272.1%27&amp;name=%27Ms.Webi.ContentUpdate%27&amp;time=%272020-05-25T22%3A37%3A33.940Z%27&amp;os=%27Windows%27&amp;appId=%27JS%3ADocs%27&amp;-ver=%271.0%27&amp;-impressionGuid=%27f8929c73-d9f1-4f9f-92bf-d9552cc8e6de%27&amp;-pageName=%27efb4208b-2a5d-ec30-3cc5-f3ed1a7b8453%27&amp;-uri=%27https%3A%2F%2Fdocs.microsoft.com%2Fru-ru%2Flearn%2Fmodules%2Fprinciples-cloud-computing%2F1-introduction%27&amp;-market=%27ru-ru%27&amp;-pageTags=%27%7B%22date%22%3A%2209%2F24%2F2018%22%2C%22author%22%3A%22patridge%22%2C%22pgauth%22%3A%22adpatrid%22%2C%22pgtop%22%3A%22interactive-tutorial%22%2C%22product%22%3A%22learning-azure%22%2C%22translationtype%22%3A%22HT%22%2C%22lasthandoff%22%3A%2205%2F14%2F2020%22%2C%22locfileid%22%3A%2283389688%22%2C%22depotname%22%3A%22Docs.learn-pr%22%2C%22publishtime%22%3A%222020-05-18%2003%3A43%20PM%22%2C%22document_version_independent_id%22%3A%2228b97bf0-3657-4119-f129-62cf576a7e38%22%2C%22contentlocale%22%3A%22ru-ru%22%2C%22highContrast%22%3A%22false%22%2C%22metaTags%22%3A%7B%7D%7D%27&amp;-pageHeight=22843&amp;-vpHeight=652&amp;-vpWidth=1318&amp;-actionType=%27R%27&amp;-behavior=0&amp;-vScrollOffset=0&amp;-hScrollOffset=0&amp;-contentVer=%272.0%27&amp;-content=%27%5B%5D%27&amp;*baseType=%27Ms.Content.ContentUpdate%27&amp;*title=%27%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20-%20Learn%20%7C%20Microsoft%20Docs%27&amp;*cookieEnabled=true&amp;*isJs=true&amp;*isDomComplete=false&amp;*isLoggedIn=false&amp;ext-javascript-ver=%271.1%27&amp;ext-javascript-libVer=%274.2.14%27&amp;ext-javascript-domain=%27docs.microsoft.com%27&amp;ext-javascript-msfpc=%27GUID%3D9de9b1f189c04dce9a195d6627555a06%26HASH%3D9de9%26LV%3D202005%26V%3D4%26LU%3D1590343194486%27&amp;ext-javascript-userConsent=false&amp;ext-javascript-anid=%27A%3D8A19B60B77C771A23A73D587FFFFFFFF%27&amp;ext-user-localId=%27t%3A02371F7998A16EAD195B11AD99CA6F56%27&amp;$mscomCookies=false"></script><script async="" src="https://web.vortex.data.microsoft.com/collect/v1/t.js?ver=%272.1%27&amp;name=%27Ms.Webi.PageAction%27&amp;time=%272020-05-25T22%3A37%3A33.952Z%27&amp;os=%27Windows%27&amp;appId=%27JS%3ADocs%27&amp;-ver=%271.0%27&amp;-impressionGuid=%27f8929c73-d9f1-4f9f-92bf-d9552cc8e6de%27&amp;-pageName=%27efb4208b-2a5d-ec30-3cc5-f3ed1a7b8453%27&amp;-uri=%27https%3A%2F%2Fdocs.microsoft.com%2Fru-ru%2Flearn%2Fmodules%2Fprinciples-cloud-computing%2F1-introduction%27&amp;-pageTags=%27%7B%22date%22%3A%2209%2F24%2F2018%22%2C%22author%22%3A%22patridge%22%2C%22pgauth%22%3A%22adpatrid%22%2C%22pgtop%22%3A%22interactive-tutorial%22%2C%22product%22%3A%22learning-azure%22%2C%22translationtype%22%3A%22HT%22%2C%22lasthandoff%22%3A%2205%2F14%2F2020%22%2C%22locfileid%22%3A%2283389688%22%2C%22depotname%22%3A%22Docs.learn-pr%22%2C%22publishtime%22%3A%222020-05-18%2003%3A43%20PM%22%2C%22document_version_independent_id%22%3A%2228b97bf0-3657-4119-f129-62cf576a7e38%22%2C%22contentlocale%22%3A%22ru-ru%22%2C%22highContrast%22%3A%22false%22%2C%22metaTags%22%3A%7B%7D%7D%27&amp;-contentVer=%272.0%27&amp;-market=%27ru-ru%27&amp;-pageType=%27learn%27&amp;-actionType=%27O%27&amp;-behavior=300&amp;-content=%27%5B%7B%22event%22%3A%22page-focus-changed%22%2C%22value%22%3A%22focus%22%7D%5D%27&amp;*baseType=%27Ms.Content.PageAction%27&amp;*timeToAction=3293576&amp;*cookieEnabled=true&amp;*isJs=true&amp;*title=%27%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20-%20Learn%20%7C%20Microsoft%20Docs%27&amp;*isLoggedIn=false&amp;*isManual=true&amp;*referrerUri=%27https%3A%2F%2Fdocs.microsoft.com%2Fru-ru%2Flearn%2Fmodules%2Fprinciples-cloud-computing%2F2-what-is-cloud-computing%27&amp;ext-javascript-ver=%271.1%27&amp;ext-javascript-libVer=%274.2.14%27&amp;ext-javascript-domain=%27docs.microsoft.com%27&amp;ext-javascript-msfpc=%27GUID%3D9de9b1f189c04dce9a195d6627555a06%26HASH%3D9de9%26LV%3D202005%26V%3D4%26LU%3D1590343194486%27&amp;ext-javascript-userConsent=false&amp;ext-javascript-anid=%27A%3D8A19B60B77C771A23A73D587FFFFFFFF%27&amp;ext-user-localId=%27t%3A02371F7998A16EAD195B11AD99CA6F56%27&amp;$mscomCookies=false"></script></head>
+
+<body lang="ru-ru" dir="ltr">
+<div class="header-holder has-default-focus">
+	<a href="https://docs.microsoft.com/ru-ru/learn/modules/principles-cloud-computing/1-introduction#main" class="skip-to-main-link visually-hidden-until-focused is-fixed has-inner-focus focus-visible has-top-zero has-left-zero has-right-zero has-padding-medium has-text-centered has-body-background-medium" tabindex="1">Пропустить и перейти к основному содержимому</a>
+	<div id="build-banner-holder" class="has-default-focus has-overflow-hidden">
+	</div>
+		
+		
+
+	<div id="disclaimer-holder" class="has-overflow-hidden has-default-focus"></div>
+	</div>
+
+	<div class="mainContainer  uhf-container has-body-background-dark uhf-container is-full  has-default-focus" data-bi-name="body">
+
+		<div class="columns has-large-gaps is-gapless-mobile  is-gapless">
+
+
+			<section class="primary-holder column  is-full ">
+				<div class="columns is-gapless-mobile has-large-gaps  is-gapless">
+
+
+				<div id="main-column" class="column  is-full ">
+    <main id="main" role="main" class="content " data-bi-name="content" lang="ru-ru" dir="ltr">
+
+
+<div class="is-mobile is-fixed-bottom is-hidden-tablet">
+	<a id="start-unit-mobile" class="button is-fullwidth is-primary is-radiusless is-large has-margin-none" data-bi-name="start" href="https://docs.microsoft.com/ru-ru/learn/modules/principles-cloud-computing/1-introduction/">
+		<span>Начать</span>
+		<span class="icon docon docon-chevron-right-light" aria-hidden="true"></span>
+	</a>
+</div>
+
+						
+
+
+						<!-- <content> -->
+							<div class="has-body-background">
+	<div class="modular-content-container">
+		<div class="section is-small is-uniform has-padding-top-large has-padding-top-extra-large-tablet has-padding-top-large-desktop is-relative-mobile">
+			<div class="columns has-large-gaps has-margin-none">
+
+				<figure class="image is-112x112-desktop is-96x96 has-margin-bottom-large">
+					<img role="presentation" src="./Введение - Learn _ Microsoft Docs_files/azure-fundamentals.svg" alt="" data-linktype="absolute-path">
+				</figure>
+
+				<div class="column has-padding-none has-padding-large-tablet is-relative-tablet">
+					
+					<div class="columns is-mobile is-gapless has-margin-bottom-none">
+						<div class="column is-auto heading-container">
+							<h1 class="is-size-2 has-margin-none has-margin-right-super-large-tablet">Основы Azure</h1>
+							
+						</div>
+					</div>
+
+					
+
+					
+
+						
+
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+						<!-- </content> -->
+
+						</main>
+  
+
+					<main id="main" role="main" class="content " data-bi-name="content" lang="ru-ru" dir="ltr">
+
+
+
+<div class="columns is-mobile is-gapless is-fixed-bottom is-hidden-tablet is-hidden-landscape has-body-background has-margin-none" id="mobile-nav">
+    <div class="column is-hidden" id="previous-unit-link-mobile-col">
+        <a class="button is-fullwidth is-tertiary is-radiusless is-large has-margin-none has-inner-focus" data-bi-name="previous-unit" id="previous-unit-link-mobile">
+            <span aria-hidden="true" class="icon docon docon-chevron-left-light"></span>
+            <span>Назад</span>
+        </a>
+    </div>
+    <div class="column" id="next-unit-link-mobile-col">
+        <a class="button is-fullwidth is-primary is-radiusless is-large has-margin-none has-inner-focus" data-bi-name="next-unit" id="next-unit-link-mobile" href="https://docs.microsoft.com/ru-ru/learn/modules/principles-cloud-computing/2-what-is-cloud-computing/">
+            <span>Следующая</span>
+            <span aria-hidden="true" class="icon docon docon-chevron-right-light"></span>
+        </a>
+    </div>
+</div>
+
+						
+
+
+						<!-- <content> -->
+							<div class="modular-content-container has-body-background box">
+	<div id="unit-inner-section" class="section is-uniform is-relative">
+		<h1 class="has-margin-right-super-large-desktop">Введение</h1>
+		
+			<p>Когда вы включаете свет, вы просто хотите, чтобы было светло. Вы знаете, что для этого вам нужно электричество, но на этом этапе вам необязательно знать, как электричество поступает в лампочку. При этом вы не задумываетесь о том, как электричество вырабатывается на электростанции и передается по огромной сети высоковольтных линий электропередачи в ваш город, на подстанцию, а затем и в ваш дом.</p>
+<p><img src="./Введение - Learn _ Microsoft Docs_files/1-heading.png" alt="Подключенная розетка, символизирующая доставку электричества" data-linktype="relative-path"></p>
+<p>Процесс включения света для нас сведен к простому щелчку выключателем. В этот момент электричество становится утилитой с множеством преимуществ. Во-первых, вы платите только за то, что используете. Покупая лампочку, вы не платите поставщику электроэнергии вперед за все то время, когда эта лампочка предположительно будет гореть. Нет, вы платите только за тот объем электроэнергии, который вы фактически потребили. Во-вторых, вам не нужно беспокоиться о модернизации электростанций. И, наконец, вам не нужно управлять масштабированием электроэнергии. Например, вы можете быть уверены в том, что приезд в город новых людей не повлияет на энергоснабжение.</p>
+<p>Такие преимущества непременно пригодятся специалисту по компьютерам в процессе разработки и развертывания приложений. Хранение данных, потоковое видео и даже хостинг веб-сайта требуют управления оборудованием и программным обеспечением. Это создает ненужное препятствие для предоставления приложения пользователям. К счастью, для этой проблемы есть решение: <strong>облачные вычисления</strong>.</p>
+<h2 id="learning-objectives">Цели обучения</h2>
+<p>В этом модуле вы узнаете, как выполнять следующие задачи:</p>
+<ul>
+<li>Изучение распространенных служб облачных вычислений</li>
+<li>Изучение преимуществ облачных вычислений</li>
+<li>Выбор подходящей модели облачного развертывания</li>
+</ul>
+
+		<div id="next-section" class="modular-content-container is-hidden-portrait"></div>
+		
+	</div>
+</div>
+
+						<!-- </content> -->
+
+						</main>
+
+						<main id="main" role="main" class="content " data-bi-name="content" lang="ru-ru" dir="ltr">
+
+
+
+<div class="columns is-mobile is-gapless is-fixed-bottom is-hidden-tablet is-hidden-landscape has-body-background has-margin-none" id="mobile-nav">
+    <div class="column" id="previous-unit-link-mobile-col">
+        <a class="button is-fullwidth is-tertiary is-radiusless is-large has-margin-none has-inner-focus" data-bi-name="previous-unit" id="previous-unit-link-mobile" href="https://docs.microsoft.com/ru-ru/learn/modules/principles-cloud-computing/1-introduction/">
+            <span aria-hidden="true" class="icon docon docon-chevron-left-light"></span>
+            <span>Назад</span>
+        </a>
+    </div>
+    <div class="column" id="next-unit-link-mobile-col">
+        <a class="button is-fullwidth is-primary is-radiusless is-large has-margin-none has-inner-focus" data-bi-name="next-unit" id="next-unit-link-mobile" href="https://docs.microsoft.com/ru-ru/learn/modules/principles-cloud-computing/3-benefits-of-cloud-computing/">
+            <span>Следующая</span>
+            <span aria-hidden="true" class="icon docon docon-chevron-right-light"></span>
+        </a>
+    </div>
+</div>
+
+						
+
+
+						<!-- <content> -->
+							<div class="modular-content-container has-body-background box">
+	<div id="unit-inner-section" class="section is-uniform is-relative">
+		<h1 class="has-margin-right-super-large-desktop">Общее представление об облачных вычислениях</h1>
+		
+			
+<p>Облачные вычисления&nbsp;— это аренда ресурсов, таких как дисковое пространство или циклы ЦП, на компьютерах другой компании. Вы платите только за то, что используете. Организация, предлагающая такие услуги, называется поставщиком облачных служб. Например, к ним можно отнести Майкрософт, Amazon и Google.</p>
+<p>Поставщик облачных служб отвечает за физическое оборудование, необходимое для выполнения работы, и за поддержку его в актуальном состоянии. Предлагаемые вычислительные службы обычно зависят от конкретного поставщика облачных служб. Но обычно в их число входят следующие:</p>
+<ul>
+<li><strong>вычислительные ресурсы</strong>, например серверы Linux или веб-приложения;</li>
+<li><strong>хранилище</strong>, например файлы и базы данных;</li>
+<li><strong>сеть</strong>, например безопасные соединения между поставщиком облачных служб и вашей организацией;</li>
+<li><strong>функции аналитики</strong>, такие как визуализация телеметрии и данных по производительности.</li>
+</ul>
+<h2 id="cloud-computing-services">Службы облачных вычислений</h2>
+<p>Цель облачных вычислений состоит в том, чтобы сделать ведение бизнеса более простым и эффективным как для небольшой компании, так и для крупного предприятия. Каждая организация уникальна и имеет собственные потребности. Чтобы удовлетворить эти потребности, поставщики облачных вычислений предлагают широкий спектр служб.</p>
+<p>Нужно иметь базовое представление о некоторых предоставляемых ими службах. Давайте кратко рассмотрим две наиболее распространенных службы, предоставляемые всеми поставщиками облачных служб,&nbsp;— <em>вычислительные ресурсы</em> и <em>хранилище</em>.</p>
+<section class="row">
+<div class="column span3">
+<h3 id="compute-power">Вычислительные ресурсы</h3>
+<p>Когда вы отправляете сообщение электронной почты, бронируете номер в гостинице на сайте, оплачиваете счет через Интернет или проходите этот урок Microsoft Learn, вы взаимодействуете с облачными серверами, которые обрабатывают каждый запрос и возвращают ответ. Пользуясь Интернетом, мы все зависим от вычислительных служб, предоставляемых различными поставщиками облачных служб.</p>
+<p>При создании решений на базе облачных вычислений вы можете выбирать, как выполнить работу с учетом имеющихся ресурсов и потребностей. Например, чтобы лучше контролировать ситуацию и самостоятельно проводить обслуживание, можно создать <em>виртуальную машину</em>. Виртуальная машина эмулирует настольный компьютер или ноутбук, например такой, каким вы пользуетесь сейчас. Каждая виртуальная машина имеет операционную систему и оборудование, которые пользователь видит как обычный физический компьютер под управлением Windows или Linux. Вы можете установить в виртуальной машине любое программное обеспечение, которое требуется для выполнения задач в облаке.</p>
+</div>
+<div class="column">
+<p><img src="./Введение - Learn _ Microsoft Docs_files/2-compute-power.png" alt="Иллюстрация, на которой показан датчик вычислительной мощности" data-linktype="relative-path"></p>
+</div>
+</section>
+<p>Разница в том, что вам не нужно покупать оборудование или устанавливать ОС. Поставщик облачных служб запускает вашу виртуальную машину на физическом сервере в одном из своих центров данных. Часто на одном сервере выполняются несколько виртуальных машин, каждая из которых изолирована и защищена. Благодаря облаку можно подготовить виртуальную машину за несколько минут, и это обходится дешевле, чем покупка физического компьютера.</p>
+<p>Помимо виртуальных машин, есть и еще два популярных варианта вычислений: <em>контейнеры</em> и <em>бессерверные вычисления</em>.</p>
+<h4 id="what-are-containers">Что такое контейнеры?</h4>
+<p><strong>Контейнер</strong> реализует согласованную изолированную среду для выполнения приложений. Они похожи на виртуальные машины за тем исключением, что гостевая операционная система не требуется. Вместо этого приложение вместе со всеми зависимостями упаковывается в "контейнер", после чего для его выполнения используется стандартная среда выполнения. Это позволяет запускать контейнер в считаные секунды, так как загружать и инициализировать ОС не нужно. Достаточно запустить приложение.</p>
+<p>Одной из ведущих платформ для управления контейнерами является проект с открытым исходным кодом Docker. Контейнеры Docker предоставляют эффективный и упрощенный подход к развертыванию приложений, так как они позволяют независимо развертывать различные компоненты приложения в разные контейнеры. На одном компьютере могут выполняться несколько контейнеров. Их также можно перемещать между компьютерами. Благодаря высокому уровню переносимости контейнеров упрощается развертывание приложений в нескольких средах (локально или в облаке), причем вносить изменения практически не требуется.</p>
+<h4 id="what-is-serverless-computing">Что такое бессерверные вычисления?</h4>
+<p>При работе с <strong>бессерверными вычислениями</strong> вы запускаете код приложения, не тратя при этом силы на создание, настройку и обслуживание сервера. Основной принцип заключается в том, что приложение делится на отдельные <em>функции</em>, который инициируются определенными действиями. Это идеальный подход для автоматизированных задач. Например, можно создать бессерверный процесс, который автоматически отправляет сообщение электронной почты с подтверждением после совершения покупки в интернет-магазине.</p>
+<p>Бессерверная модель отличается от виртуальных машин и контейнеров тем, что оплачивается только время обработки, затрачиваемое на выполнение каждой функции. При использовании виртуальных машин и контейнеров оплачивается все время их работы, даже если приложения в них простаивают. Такая архитектура подходит не для каждого приложения, но если логику приложения можно разделить на независимые модули, которые можно тестировать и изменять по отдельности и запускать их в доли секунды, это самый быстрый способ развертывания.</p>
+<p>На схеме ниже сравниваются три подхода к вычислениям, которые мы рассмотрели.</p>
+<p><img src="./Введение - Learn _ Microsoft Docs_files/2-vm-vs-container-vs-serverless.png" alt="Схема, на которой сравниваются виртуальные машины, контейнеры и бессерверные вычисления" data-linktype="relative-path"></p>
+<section class="row">
+<div class="column span3">
+<h3 id="storage">Хранилище</h3>
+<p>Большинство устройств и приложений выполняют чтение и запись данных. Вот несколько примеров:</p>
+<ul>
+<li>покупка билета в кинотеатр в Интернете;</li>
+<li>поиск цены на товар в интернет-магазине;</li>
+<li>фотографирование;</li>
+<li>Отправка сообщения электронной почты</li>
+<li>отправка сообщения голосовой почты.</li>
+</ul>
+<p>Во всех этих случаях данные либо <em>считываются</em> (например, поиск цены), либо <em>записываются</em> (например, съемка). В каждой ситуации используются разные типы данных и способы их хранения.</p>
+</div>
+<div class="column">
+<p><img src="./Введение - Learn _ Microsoft Docs_files/2-storage.png" alt="Иллюстрация, представляющая хранилище" data-linktype="relative-path"></p>
+</div>
+</section>
+<p>Поставщики облачных служб обычно предлагают службы, которые могут обрабатывать все эти типы данных. Например, если вы хотите хранить текст или видеозапись, можно использовать файл на диске. Если у вас есть набор взаимосвязанных данных, такой как адресная книга, можно использовать более структурированный подход, например базу данных.</p>
+<p>Преимущество облачного хранилища данных в том, что его можно масштабировать по мере необходимости. Если вам нужно больше места для хранения видеозаписей, можно увеличить доступное место за небольшую дополнительную плату. В некоторых случаях хранилище может даже увеличиваться и уменьшаться автоматически, так что вы всегда платите только за тот объем, который вам нужен.</p>
+<h2 id="summary">Итоги</h2>
+<p>Каждая организация имеет собственные потребности. Облачные вычисления являются <strong>гибкими</strong> и <strong>экономически эффективными</strong>, что может быть очень полезно для каждого предприятия&nbsp;— будь то небольшой стартап или крупная компания.</p>
+
+		<div id="next-section" class="modular-content-container is-hidden-portrait"></div>
+		
+	</div>
+</div>
+
+						<!-- </content> -->
+
+						</main>
+
+<main id="main" role="main" class="content " data-bi-name="content" lang="ru-ru" dir="ltr">
+
+
+
+<div class="columns is-mobile is-gapless is-fixed-bottom is-hidden-tablet is-hidden-landscape has-body-background has-margin-none" id="mobile-nav">
+    <div class="column" id="previous-unit-link-mobile-col">
+        <a class="button is-fullwidth is-tertiary is-radiusless is-large has-margin-none has-inner-focus" data-bi-name="previous-unit" id="previous-unit-link-mobile" href="https://docs.microsoft.com/ru-ru/learn/modules/principles-cloud-computing/2-what-is-cloud-computing/">
+            <span aria-hidden="true" class="icon docon docon-chevron-left-light"></span>
+            <span>Назад</span>
+        </a>
+    </div>
+    <div class="column" id="next-unit-link-mobile-col">
+        <a class="button is-fullwidth is-primary is-radiusless is-large has-margin-none has-inner-focus" data-bi-name="next-unit" id="next-unit-link-mobile" href="https://docs.microsoft.com/ru-ru/learn/modules/principles-cloud-computing/3a-compliance/">
+            <span>Следующая</span>
+            <span aria-hidden="true" class="icon docon docon-chevron-right-light"></span>
+        </a>
+    </div>
+</div>
+
+						
+
+
+						<!-- <content> -->
+							<div class="modular-content-container has-body-background box">
+	<div id="unit-inner-section" class="section is-uniform is-relative">
+		<h1 class="has-margin-right-super-large-desktop">Преимущества облачных вычислений</h1>
+		
+			<p>Облачные вычисления можно комбинировать с другими подходами. Организации могут использовать облако для хранения данных и выполнение логики в любом объеме в соответствии с задачами бизнеса. Существующие организации могут выбрать постепенный переход, чтобы снизить затраты на инфраструктуру и административные расходы (с помощью миграции без изменений), а новые могут сразу начать работу в облаке.</p>
+<p>Давайте рассмотрим некоторые основные преимущества облачных вычислений.</p>
+<section class="row">
+<div class="column span3">
+<h2 id="its-cost-effective">Экономичность</h2>
+<p>Облачные вычисления предоставляются на условиях <strong>оплаты по мере использования</strong> или модели расчета цены <strong>на основе потребления</strong>.</p>
+<p>Эта модель на основе потребления предлагает множество преимуществ, в том числе следующие:</p>
+<ul>
+<li>Отсутствие начальных затрат на инфраструктуру</li>
+<li>Нет необходимости приобретать и поддерживать дорогостоящую инфраструктуру, все возможности которой могут не использоваться в полной мере</li>
+<li>Возможность платить за дополнительные ресурсы только тогда, когда они необходимы</li>
+<li>Возможность перестать оплачивать ресурсы, которые больше не требуются</li>
+</ul>
+</div>
+<div class="column">
+<p><img src="./Введение - Learn _ Microsoft Docs_files/3-cost-effective.png" alt="Бумажный счет и облако, представляющее экономическую эффективность" data-linktype="relative-path"></p>
+</div>
+</section>
+<p>Это также позволяет лучше прогнозировать затраты. Цены на отдельные ресурсы и службы позволяют предсказать, сколько вам придется потратить в течение конкретного расчетного периода, в зависимости от предполагаемого использования. Также можно выполнить анализ на основе темпов будущего роста, используя исторические данные об использовании, которые отслеживаются вашим поставщиком облачных служб.</p>
+<section class="row">
+<div class="column span3">
+<h2 id="its-scalable">Масштабируемость</h2>
+<p>Можно увеличивать или уменьшать использование ресурсов и служб в зависимости от спроса или рабочей нагрузки в любой момент времени. Облачные вычисления поддерживают как <em>вертикальное</em>, так и <em>горизонтальное</em> масштабирование в зависимости от ваших потребностей.</p>
+<p><strong>Вертикальное масштабирование</strong>&nbsp;— это процесс добавления ресурсов для расширения возможностей существующего сервера. Примерами вертикального масштабирования можно считать увеличение количества ЦП или объема памяти.</p>
+<p><strong>Горизонтальное масштабирование</strong>&nbsp;— это процесс добавления дополнительных серверов, которые работают вместе как единое целое. Например, можно использовать несколько серверов для обработки входящих запросов.</p>
+</div>
+<div class="column">
+<p><img src="./Введение - Learn _ Microsoft Docs_files/3-scalable.png" alt="Диаграмма роста, представляющая масштабируемость" data-linktype="relative-path"></p>
+</div>
+</section>
+<p>Масштабирование можно выполнять вручную или автоматически в зависимости от конкретных причин, таких как потребление ресурсов ЦП или число запросов, и ресурсы могут выделяться или освобождаться за считаные минуты.</p>
+<section class="row">
+<div class="column span3">
+<h2 id="its-elastic">Эластичность</h2>
+<p>Система на основе облачных вычислений может компенсировать резкие колебания нагрузки, автоматически добавляя или удаляя лишние ресурсы.</p>
+<p>Например, представьте, что ваш сайт был упомянут в новостной статье, что привело к резкому увеличению трафика в ночное время. Благодаря своей гибкости облачная служба автоматически выделяет дополнительные вычислительные ресурсы, чтобы справиться с этой нагрузкой. Когда трафик начинает нормализоваться, облако автоматически освобождает дополнительные ресурсы, чтобы сократить затраты.</p>
+</div>
+<div class="column">
+<p><img src="./Введение - Learn _ Microsoft Docs_files/3-elastic.png" alt="Пунктирная кривая, представляющая эластичность" data-linktype="relative-path"></p>
+</div>
+</section>
+<p>Другим примером может служить приложение, используемое сотрудниками. Облако может автоматически добавлять ресурсы в часы наивысшей нагрузки, когда к приложению обращается максимальное число пользователей, и удалять их в конце рабочего дня.</p>
+<section class="row">
+<div class="column span3">
+<h2 id="its-current">Актуальность</h2>
+<p>При использовании облака вы можете сосредоточиться на важных задачах: создании и развертывании приложений. С облаком вы не будете тратить ресурсы на исправление программного обеспечения, установку оборудования, обновления и другие задачи по управлению ИТ. Все это делается автоматически, так что вы получаете в свое распоряжение новейшие и самые эффективные средства для ведения бизнеса.</p>
+</div>
+<div class="column">
+<p><img src="./Введение - Learn _ Microsoft Docs_files/3-current.png" alt="Календарь, представляющий актуальность" data-linktype="relative-path"></p>
+</div>
+</section>
+<p>Кроме того, оборудование компьютеров обслуживается и модернизируется поставщиком облачных служб. Например, если произошел сбой диска, диск будет заменен поставщиком облачных служб. Когда выпускается новое оборудование, вам не нужно производить замену старого. Поставщик облачных служб гарантирует, что обновления оборудования будут предоставлены автоматически.</p>
+<section class="row">
+<div class="column span3">
+<h2 id="its-reliable">Надежность</h2>
+<p>При ведении бизнеса вам необходима уверенность в сохранности данных. Чтобы обеспечить ее, поставщики облачных вычислений предлагают функции резервного копирования, аварийного восстановления и репликации данных. Кроме того, в архитектуре облачных служб часто предусмотрена встроенная избыточность, так что в случае сбоя одного компонента вступает в действие другой, резервный. Это называется <em>отказоустойчивостью</em> и гарантирует, что ваши клиенты не пострадают при возникновении непредвиденных случайностей.</p>
+</div>
+<div class="column">
+<p><img src="./Введение - Learn _ Microsoft Docs_files/3-reliable.png" alt="Сертификат, представляющий надежность" data-linktype="relative-path"></p>
+</div>
+</section>
+<section class="row">
+<div class="column span3">
+<h2 id="its-global">Глобальность</h2>
+<p>Поставщики облачных служб имеют полностью избыточные центры обработки данных, расположенные в различных регионах по всему миру. Это позволяет вам размещаться ближе к своим клиентам, чтобы обеспечить самое лучшее время отклика независимо от того, в каком месте они находятся.</p>
+<p>Вы можете реплицировать свои службы в нескольких регионах для обеспечения избыточности и привязки к местности или же выбрать конкретный регион для соблюдения требований к хранению данных и соответствия законодательству ваших клиентов.</p>
+</div>
+<div class="column">
+<p><img src="./Введение - Learn _ Microsoft Docs_files/3-global.png" alt="Глобус, представляющий многочисленные центры обработки данных" data-linktype="relative-path"></p>
+</div>
+</section>
+<section class="row">
+<div class="column span3">
+<h2 id="its-secure">Безопасность</h2>
+<p>Подумайте о том, как обеспечивается безопасность вашего центра обработки данных. У вас есть служба <em>физической безопасности</em>, определяющая тех, кто может входить в здание, кто может работать с серверами и т.&nbsp;д. Кроме того, у вас есть служба <em>информационной безопасности</em>, определяющая тех, кто может подключаться к вашим системам и получать доступ к данным по сети.</p>
+<p>Поставщики облачных служб предлагают широкий набор политик, технологий, средств управления, а также профессионализм экспертов, что позволяет обеспечить больший уровень безопасности, чем тот, которого возможно достичь в большинстве организаций. В результате вы получаете усиленную безопасность, которая помогает защитить данные, приложения и инфраструктуру от потенциальных угроз.</p>
+</div>
+<div class="column">
+<p><img src="./Введение - Learn _ Microsoft Docs_files/3-secure.png" alt="Замок, представляющий безопасность" data-linktype="relative-path"></p>
+</div>
+</section>
+<p>Чтобы обеспечить физическую защиту – облачной инфраструктуры от возможных угроз, поставщики облачных служб инвестируют средства в защиту физических ресурсов: стены, камеры, замки, штат службы безопасности и т.&nbsp;д. Кроме того, применяются строгие процедуры, благодаря которым сотрудники имеют доступ только к тем ресурсам, на управление которыми они имеют право.</p>
+<p>Давайте поговорим о цифровой безопасности. Вы хотите, чтобы только авторизованные пользователи могли входить на виртуальные машины или в системы хранения, работающие в облаке. Поставщики облачных служб предлагают средства, помогающие устранять угрозы безопасности, и использование этих средств для защиты используемых ресурсов&nbsp;— это ваша обязанность.</p>
+<h2 id="summary">Итоги</h2>
+<p>Облачные вычисления упрощают работу организации. Они характеризуются экономичностью, масштабируемостью, гибкостью, актуальностью, надежностью и безопасностью. Это означает, что вы можете тратить больше времени на действительно важные задачи, и меньше&nbsp;— на вспомогательные.</p>
+
+		
+		
+	</div>
+</div>
+
+						<!-- </content> -->
+
+						</main><main id="main" role="main" class="content " data-bi-name="content" lang="ru-ru" dir="ltr">
+
+
+
+<div class="columns is-mobile is-gapless is-fixed-bottom is-hidden-tablet is-hidden-landscape has-body-background has-margin-none" id="mobile-nav">
+    <div class="column" id="previous-unit-link-mobile-col">
+        <a class="button is-fullwidth is-tertiary is-radiusless is-large has-margin-none has-inner-focus" data-bi-name="previous-unit" id="previous-unit-link-mobile" href="https://docs.microsoft.com/ru-ru/learn/modules/principles-cloud-computing/3-benefits-of-cloud-computing/">
+            <span aria-hidden="true" class="icon docon docon-chevron-left-light"></span>
+            <span>Назад</span>
+        </a>
+    </div>
+    <div class="column" id="next-unit-link-mobile-col">
+        <a class="button is-fullwidth is-primary is-radiusless is-large has-margin-none has-inner-focus" data-bi-name="next-unit" id="next-unit-link-mobile" href="https://docs.microsoft.com/ru-ru/learn/modules/principles-cloud-computing/3b-economies-of-scale/">
+            <span>Следующая</span>
+            <span aria-hidden="true" class="icon docon docon-chevron-right-light"></span>
+        </a>
+    </div>
+</div>
+
+						
+
+
+						<!-- <content> -->
+							<div class="modular-content-container has-body-background box">
+	<div id="unit-inner-section" class="section is-uniform is-relative">
+		<h1 class="has-margin-right-super-large-desktop">Условия и требования по обеспечению соответствия</h1>
+		
+			<p>При выборе поставщика облачных служб для размещения ваших решений следует выяснить, насколько он способен помочь вам в выполнении нормативных требований и стандартов. При этом можно использовать следующие вопросы относительно потенциального поставщика:</p>
+<ul>
+<li>Насколько поставщик соответствует требованиям к обработке конфиденциальных данных?</li>
+<li>В какой степени службы, предлагаемые поставщиком облачных служб, отвечают требованиям?</li>
+<li>Как развернуть собственные облачные решения в сценариях, в которых предъявляются требования к аккредитации или соответствию?</li>
+<li>Какие условия включает поставщик в заявление о конфиденциальности?</li>
+</ul>
+<h3 id="compliance-offerings">Предложения для соответствия требованиям</h3>
+<p>Ниже описываются <em>некоторые</em> из доступных предложений для соответствия требованиям.</p>
+<ul>
+<li><p><strong>Информационная служба уголовной юстиции (CJIS)</strong>. Любая федеральная или региональная организация в США, которой требуется доступ к базе данных CJIS ФБР, должна соблюдать устанавливаемые этим органом политики в области безопасности. Azure является единственным крупным поставщиком облачных служб, который на контрактных условиях обеспечивает соответствие требованиям политики безопасности CJIS. Это значит, что корпорация Майкрософт соблюдает те же требования, которым должны соответствовать органы обеспечения правопорядка и общественной безопасности.</p>
+</li>
+<li><p><strong>Сертификация STAR от Cloud Security Alliance (CSA)</strong>. Azure, Intune и Microsoft Power&nbsp;BI успешно прошли сертификацию STAR, которая предусматривает всестороннюю оценку уровня безопасности, обеспечиваемого поставщиком облачных служб, с участием независимых сторонних экспертов. Сертификат STAR предоставляется при условии успешного прохождения сертификации на соответствие ISO/IEC&nbsp;27001 и критериям, определенным в Cloud Controls Matrix (CCM). Этот сертификат подтверждает, что поставщик облачных служб:</p>
+<ul>
+<li>соответствует применимым требованиям стандарта ISO/IEC&nbsp;27001;</li>
+<li>устранил определенные в CCM проблемы, которые являются критичными для безопасности облака;</li>
+<li>прошел оценку на соответствие модели зрелости возможностей создания ПО STAR в отношении управления операциями в сфере применения CCM.</li>
+</ul>
+</li>
+<li><p><strong>Общий регламент по защите данных (GDPR)</strong>. 25&nbsp;мая 2018&nbsp;г. вступил в силу европейский общий регламент по защите данных —GDPR—, устанавливающий законодательную базу в области обеспечения конфиденциальности. GDPR устанавливает новые правила для компаний, правительственных учреждений, некоммерческих организаций и других организаций, которые предлагают товары и услуги жителям государств Европейского союза (ЕС) или собирают и анализируют связанные с ними данные. GDPR применяется независимо от того, где вы находитесь.</p>
+</li>
+<li><p><strong>Условия модели для ЕС</strong>. Корпорация Майкрософт предлагает своим заказчикам стандартные договорные условия для ЕС, которые устанавливают контрактные гарантии в отношении передачи персональных данных за пределы стран ЕС. Корпорация Майкрософт первой получила совместное одобрение Европейской рабочей группы, созданной на основании статьи&nbsp;29, в отношении того, что платформа Azure гарантирует корпоративным потребителям облачных служб соответствие стандартам ЕС по международной передаче данных. Таким образом, заказчики Azure могут использовать службы Майкрософт для свободного перемещения данных из Европы в другие страны мира с помощью облака Майкрософт.</p>
+</li>
+<li><p><strong>Акт о передаче и защите данных учреждений здравоохранения (HIPAA)</strong>. HIPAA&nbsp;— это федеральный закон США, регулирующий охраняемую информацию о состоянии здоровья пациентов (PHI). Azure предлагает заказчикам Соглашение с бизнес-партнерами HIPAA (BAA), в котором устанавливается обязанность соблюдать определенные положения в отношении безопасности и конфиденциальности данных, указанные в акте HIPAA и <strong>Законе о стимулировании медицинских информационных технологий для оздоровления экономики и медицины (HITECH)</strong>. Чтобы помочь заказчикам обеспечить соответствие требованиям, Майкрософт включает соглашение BAA в качестве приложения к контракту на использование Azure.</p>
+</li>
+<li><p><strong>Международная организация по стандартизации (ISO) и Международная электротехническая комиссия (IEC) 27018</strong>. Корпорация Майкрософт является первым поставщиком облачных служб, который принял свод норм и правил ISO/IEC&nbsp;27018, охватывающих процессы обработки персональной информации поставщиками облачных служб.</p>
+</li>
+<li><p><strong>Стандарт многоуровневой безопасности облака (MTCS), Сингапур</strong>. По результатам проведенной сертификационным органом MTCS всесторонней оценки облачные службы Майкрософт успешно прошли сертификацию MTCS&nbsp;584:2013 по всем трем категориям:</p>
+<ul>
+<li>Инфраструктура как услуга (IaaS)</li>
+<li>Платформа как услуга (PaaS)</li>
+<li>Программное обеспечение как услуга (SaaS)</li>
+</ul>
+<p>Корпорация Майкрософт является первым глобальным поставщиком облачных служб, который прошел эту сертификацию по всем трем указанным категориям.</p>
+</li>
+<li><p><strong>Элементы управления организацией служб (SOC) 1, 2 и 3</strong>. Предоставляемые корпорацией Майкрософт облачные службы не реже одного раза в год проходят независимый аудит с участием сторонних экспертов на соответствие модели отчетности SOC. Аудит облачных служб Майкрософт охватывает элементы управления безопасностью данных, их доступность, целостность выполнения операций и конфиденциальность, применимые к принципам доверия в рамках каждой службы.</p>
+</li>
+<li><p><strong>Платформа кибербезопасности (CSF) Национального института стандартизации и технологий США (NIST)</strong>. Участие в программе NIST CSF является добровольным и предусматривает доступ к стандартам, руководящим указаниям и рекомендациям по регулированию рисков, связанных с кибербезопасностью. Облачные службы Майкрософт прошли независимую аудиторскую проверку среднего и высокого уровня в рамках Федеральной программы управления рисками и авторизацией (FedRAMP) и получили сертификаты соответствия стандартам FedRAMP. Кроме того, Ассоциация по защите медицинской информации (HITRUST), являющаяся ведущей организацией в области разработки стандартов безопасности и конфиденциальности, а также аккредитации на соответствие им, провела валидационную оценку системы Office&nbsp;365, по результатам которой ей был присвоен сертификат о соответствии требованиям программы CSF NIST.</p>
+</li>
+<li><p><strong>UK Government G-Cloud</strong>. UK Government G-Cloud&nbsp;— это программа сертификации облачных вычислительных служб, используемых правительственными организациями Великобритании. Платформа Azure получила официальную аккредитацию UK Government Pan Government Accreditor.</p>
+</li>
+</ul>
+
+		
+		
+	</div>
+</div>
+
+						<!-- </content> -->
+
+						</main>
+<main id="main" role="main" class="content " data-bi-name="content" lang="ru-ru" dir="ltr">
+
+
+
+<div class="columns is-mobile is-gapless is-fixed-bottom is-hidden-tablet is-hidden-landscape has-body-background has-margin-none" id="mobile-nav">
+    <div class="column" id="previous-unit-link-mobile-col">
+        <a class="button is-fullwidth is-tertiary is-radiusless is-large has-margin-none has-inner-focus" data-bi-name="previous-unit" id="previous-unit-link-mobile" href="https://docs.microsoft.com/ru-ru/learn/modules/principles-cloud-computing/3a-compliance/">
+            <span aria-hidden="true" class="icon docon docon-chevron-left-light"></span>
+            <span>Назад</span>
+        </a>
+    </div>
+    <div class="column" id="next-unit-link-mobile-col">
+        <a class="button is-fullwidth is-primary is-radiusless is-large has-margin-none has-inner-focus" data-bi-name="next-unit" id="next-unit-link-mobile" href="https://docs.microsoft.com/ru-ru/learn/modules/principles-cloud-computing/3c-capex-vs-opex/">
+            <span>Следующая</span>
+            <span aria-hidden="true" class="icon docon docon-chevron-right-light"></span>
+        </a>
+    </div>
+</div>
+
+						
+
+
+						<!-- <content> -->
+							<div class="modular-content-container has-body-background box">
+	<div id="unit-inner-section" class="section is-uniform is-relative">
+		<h1 class="has-margin-right-super-large-desktop">Экономия за счет масштаба</h1>
+		
+			<section class="row">
+<div class="column">
+<p><img src="./Введение - Learn _ Microsoft Docs_files/3b-economiesofscale.png" alt="Значок с изображением зданий и стрелки увеличения масштаба" data-linktype="relative-path"></p>
+</div>
+<div class="column span3">
+<p><em>Экономия за счет масштаба</em>°— это возможность делать что-либо более эффективно или с меньшими затратами на единицу при работе в большем масштабе. Такой экономический эффект является важным преимуществом облачных вычислений.</p>
+<p>Поставщики облачных служб, такие как Майкрософт, Google и Amazon,&nbsp;— это крупные предприятия, которые реализуют экономию за счет масштаба. Это позволяет им предоставить подобную возможность и своим клиентам.</p>
+</div>
+<div class="column">
+</div>
+</section>
+<p>Это позволяет пользователям сэкономить во многих аспектах. Например, они могут приобретать оборудование по более низкой цене. Поставщики облачных служб также могут заключать сделки с местными государственными и муниципальными организациями, получая налоговые льготы, скидки на оплату потребляемой электроэнергии или охлаждение, а также высокоскоростные коммуникационные каналы между различными объектами. От полученных поставщиками преимуществ выигрывают и пользователи, цены для которых снижаются до уровня, которого нельзя было бы достигнуть при иных обстоятельствах.</p>
+
+		
+		
+	</div>
+</div>
+
+						<!-- </content> -->
+
+						</main>
+<main id="main" role="main" class="content " data-bi-name="content" lang="ru-ru" dir="ltr">
+
+
+
+<div class="columns is-mobile is-gapless is-fixed-bottom is-hidden-tablet is-hidden-landscape has-body-background has-margin-none" id="mobile-nav">
+    <div class="column" id="previous-unit-link-mobile-col">
+        <a class="button is-fullwidth is-tertiary is-radiusless is-large has-margin-none has-inner-focus" data-bi-name="previous-unit" id="previous-unit-link-mobile" href="https://docs.microsoft.com/ru-ru/learn/modules/principles-cloud-computing/3b-economies-of-scale/">
+            <span aria-hidden="true" class="icon docon docon-chevron-left-light"></span>
+            <span>Назад</span>
+        </a>
+    </div>
+    <div class="column" id="next-unit-link-mobile-col">
+        <a class="button is-fullwidth is-primary is-radiusless is-large has-margin-none has-inner-focus" data-bi-name="next-unit" id="next-unit-link-mobile" href="https://docs.microsoft.com/ru-ru/learn/modules/principles-cloud-computing/4-cloud-deployment-models/">
+            <span>Следующая</span>
+            <span aria-hidden="true" class="icon docon docon-chevron-right-light"></span>
+        </a>
+    </div>
+</div>
+
+						
+
+
+						<!-- <content> -->
+							<div class="modular-content-container has-body-background box">
+	<div id="unit-inner-section" class="section is-uniform is-relative">
+		<h1 class="has-margin-right-super-large-desktop">Капитальные затраты (CapEx) или эксплуатационные расходы (OpEx)</h1>
+		
+			<p>В прошлом организации были вынуждены приобретать физические помещения и инфраструктуру, чтобы начать свой бизнес. Для запуска или развития бизнеса требовались значительные предварительные расходы на оборудование и инфраструктуру. Облачные вычисления предоставляют клиентам услуги без значительных предварительных расходов и не тратя время на установку оборудования.</p>
+<p>Эти два подхода к инвестициям можно описать следующим образом.</p>
+<ul>
+<li><p><strong>Капитальные затраты (CapEx)</strong>. CapEx°— это предварительная трата денег на физическую инфраструктуру с последующим вычитанием этих расходов из налогов с течением времени. CapEx°— это стоимость начальных капиталовложений, которая со временем уменьшается.</p>
+</li>
+<li><p><strong>Эксплуатационные расходы (OpEx)</strong>. OpEx°— это трата денег на услуги или продукты и выставление за них счетов в настоящий момент. Эти затраты можно вычесть из налогов за этот же год. Здесь нет предварительных расходов. Вы платите за услугу или продукт по мере использования.</p>
+</li>
+</ul>
+<h2 id="capex-computing-costs">Капитальные затраты на вычислительные ресурсы</h2>
+<p>Затраты на типичный локальный центр обработки данных включают в себя следующее:</p>
+<h3 id="server-costs">Затраты на серверы</h3>
+<p>Эта статья включает в себя все аппаратные компоненты и затраты на их поддержку. При приобретении серверов следует предусмотреть отказоустойчивость и избыточность, например в виде кластеризации серверов, резервных источников электропитания и источников бесперебойного питания. Когда в центре обработки данных нужно добавить или убрать сервер, вам требуется заплатить за этот компьютер. Это может негативно повлиять на оперативное движение денежных средств, так как вам нужно оплатить сервер заранее.</p>
+<h3 id="storage-costs">Затраты на хранение</h3>
+<p>Эта статья включает в себя все аппаратные компоненты хранения и затраты на их поддержку. Учитывая способ применения и уровень отказоустойчивости, централизованное хранилище может оказаться дорогостоящим. Для более крупных организаций можно создать уровни хранилища, где более дорогое отказоустойчивое хранилище используется для критически важных приложений, а более дешевое хранилище&nbsp;— для низкоприоритетных данных.</p>
+<h3 id="network-costs">Затраты на сеть</h3>
+<p>Затраты на сеть охватывают все локальные аппаратные компоненты, включая подключение кабелей, коммутаторы, точки доступа и маршрутизаторы. Сюда же входят подключения к глобальной сети (WAN) и Интернету.</p>
+<h3 id="backup-and-archive-costs">Затраты на резервное копирование и архивацию</h3>
+<p>Это затраты на резервное копирование, копирование и архивацию данных. Доступные варианты могут включать настройку резервного копирования с использованием облака. При этом необходимы предварительные расходы на оборудование и дополнительные затраты на обслуживание и расходные материалы, такие как ленты.</p>
+<h3 id="organization-continuity-and-disaster-recovery-costs">Затраты на обеспечение непрерывности бизнес-процессов и аварийное восстановление</h3>
+<p>Наряду с отказоустойчивостью и избыточностью серверов нужно спланировать аварийное восстановление и возобновление работы. Ваш план должен предусматривать создание места для аварийного восстановления. Кроме того, он может предусматривать резервные генераторы. Большинство из этих расходов являются предварительными, особенно при создании места для аварийного восстановления, но имеются также и дополнительные текущие издержки на инфраструктуру и ее обслуживание.</p>
+<h3 id="datacenter-infrastructure-costs">Затраты на инфраструктуру центров обработки данных</h3>
+<p>Это расходы на строительное оборудование, а также будущие расходы на реконструкцию и ремонт, которые могут возникать по мере роста спроса. Кроме того, сюда входят эксплуатационные расходы на электричество, аренду площадей, охлаждение и обслуживание строений.</p>
+<h3 id="technical-personnel">Технический персонал</h3>
+<p>Хотя персонал, необходимый для работы в вашей инфраструктуре, не включается в капитальные затраты, он относится к локальным центрам обработки данных. Вам потребуются технические знания и персонал для установки, развертывания систем в центре обработки данных и месте аварийного восстановления, а также для управления ими.</p>
+<h2 id="opex-cloud-computing-costs">Эксплуатационные расходы на облачные вычисления</h2>
+<p>При использовании облачных вычислений многие затраты, связанные с локальным центром обработки данных, перекладываются на поставщика услуг. Облачные вычисления позволяют не беспокоиться о затратах на физическое оборудование и центры обработки данных, а подразумевают другой набор затрат. С точки зрения учета все эти затраты относятся к эксплуатационным расходам:</p>
+<h3 id="leasing-software-and-customized-features">Аренда программного обеспечения и настраиваемых компонентов</h3>
+<p>Для использования модели оплаты по мере использования требуется активно управлять подписками, чтобы пользователи не злоупотребляли услугами, а подготовленные учетные записи использовались продуктивно, а не впустую. Как только поставщик подготавливает ресурсы, начинается начисление оплаты. Именно вы отвечаете за отмену подготовки неиспользуемых ресурсов, чтобы минимизировать затраты.</p>
+<h3 id="scaling-charges-based-on-usagedemand-instead-of-fixed-hardware-or-capacity">Затраты на масштабирование основаны на использовании/потребности и не привязаны жестко к конкретному оборудованию или емкости.</h3>
+<p>Оплата за облачные вычисления может начисляться различными способами, например по количеству пользователей или времени использования ЦП. Однако категории выставления счетов также могут включать выделенную оперативную память, операции ввода-вывода в секунду (IOPS) и место на диске. Планирование трафика резервного копирования и аварийного восстановления для определения необходимой пропускной способности.</p>
+<h3 id="billing-at-the-user-or-organization-level">Выставление счетов на уровне пользователя или организации.</h3>
+<p>Модель подписки (с оплатой по мере использования) является способом выставления счетов за вычислительные ресурсы, предназначенным как для организаций, так и для пользователей. Организация или пользователь получают счета за использованные услуги, обычно на регулярной основе. Вы можете масштабировать, настраивать и подготавливать вычислительные ресурсы, включая программное обеспечение, хранилище и платформы разработки. Например, при использовании выделенной облачной службы вы можете производить оплату с учетом выбранного серверного оборудования и использования.</p>
+<h2 id="benefits-of-capex">Преимущества CapEx</h2>
+<p>При капитальных затратах вы планируете свои расходы в начале проекта или бюджетного периода. Расходы фиксированы, то есть вы знаете, сколько именно средств расходуется. Такой подход привлекателен, когда требуется спрогнозировать расходы до начала проекта из-за ограниченного бюджета.</p>
+<h2 id="benefits-of-opex">Преимущества OpEx</h2>
+<p>Объем спроса и его рост могут быть непредсказуемыми и опережать ожидания, что является проблемой для модели CapEx, как показано на следующем графике.</p>
+<p><img src="./Введение - Learn _ Microsoft Docs_files/3c-capexvsopex.png" alt="График, показывающий, как ожидаемый спрос может отличаться от реального и как спрос может превысить инфраструктуру CapEx." data-linktype="relative-path"></p>
+<p>При использовании модели OpEx организациям, желающим опробовать новый продукт или услугу, не нужно вкладывать средства в оборудование. Вместо этого они оплачивают ровно такую инфраструктуру, в которой нуждаются.</p>
+<p>Стратегия OpEx особенно привлекательна, если спрос изменчив или непредсказуем. Многие считают,что облачные вычисления отличаются <em>гибкостью</em>. Гибкость облака°— это возможность быстро изменять ИТ-инфраструктуру для адаптации к меняющимся потребностям бизнеса. Например, если спрос на вашу услугу достигает пиковых значений в один месяц, вы можете масштабироваться в соответствии со спросом и оплатить счет на большую сумму за этот месяц. Если в следующий месяц спрос упадет, можно сократить использование ресурсов и снизить сумму платежа. Такая гибкость позволяет динамически управлять затратами, оптимизируя расходы по мере изменений потребностей.</p>
+
+		
+		
+	</div>
+</div>
+
+						<!-- </content> -->
+
+						</main>
+<main id="main" role="main" class="content " data-bi-name="content" lang="ru-ru" dir="ltr">
+
+
+
+<div class="columns is-mobile is-gapless is-fixed-bottom is-hidden-tablet is-hidden-landscape has-body-background has-margin-none" id="mobile-nav">
+    <div class="column" id="previous-unit-link-mobile-col">
+        <a class="button is-fullwidth is-tertiary is-radiusless is-large has-margin-none has-inner-focus" data-bi-name="previous-unit" id="previous-unit-link-mobile" href="https://docs.microsoft.com/ru-ru/learn/modules/principles-cloud-computing/3c-capex-vs-opex/">
+            <span aria-hidden="true" class="icon docon docon-chevron-left-light"></span>
+            <span>Назад</span>
+        </a>
+    </div>
+    <div class="column" id="next-unit-link-mobile-col">
+        <a class="button is-fullwidth is-primary is-radiusless is-large has-margin-none has-inner-focus" data-bi-name="next-unit" id="next-unit-link-mobile" href="https://docs.microsoft.com/ru-ru/learn/modules/principles-cloud-computing/5-types-of-cloud-services/">
+            <span>Следующая</span>
+            <span aria-hidden="true" class="icon docon docon-chevron-right-light"></span>
+        </a>
+    </div>
+</div>
+
+						
+
+
+						<!-- <content> -->
+							<div class="modular-content-container has-body-background box">
+	<div id="unit-inner-section" class="section is-uniform is-relative">
+		<h1 class="has-margin-right-super-large-desktop">Модели облачного развертывания</h1>
+		
+			<p>Существуют три разные модели облачного развертывания. Модель облачного развертывания определяет то, где хранятся данные и как клиенты взаимодействуют с ними&nbsp;— как они получают к ним доступ и где выполняются приложения. Также имеет значение то, какой вам требуется уровень контроля над собственной инфраструктурой.</p>
+<h2 id="explore-the-three-deployment-methods-of-cloud-computing">Изучите три способа развертывания облачных вычислений</h2>
+<h3 id="public-versus-private-versus-hybrid">Общедоступные, частные и гибридные облака</h3>
+
+<section class="row">
+<div class="column span3">
+<h3 id="public-cloud">Общедоступное облако</h3>
+<p>Это самая распространенная модель развертывания. В этом случае вам не нужно управлять локальным оборудованием и обновлять его&nbsp;— все оборудование принадлежит вашему поставщику облачных услуг. В некоторых случаях использование вычислительных ресурсов совместно с другими пользователями облака позволяет снизить затраты.</p>
+<p>Предприятия могут использовать несколько поставщиков общедоступных облаков разного масштаба. Примером поставщика общедоступного облака является Microsoft Azure.</p>
+</div>
+<div class="column">
+<p><img src="./Введение - Learn _ Microsoft Docs_files/4-public-cloud.png" alt="Значок &quot;Общедоступное облако&quot;" data-linktype="relative-path"></p>
+</div>
+</section>
+<h4 id="advantages">Преимущества</h4>
+<ul>
+<li>Высокая масштабируемость и гибкость&nbsp;— для масштабирования не нужно покупать новый сервер.</li>
+<li>Оплата по мере использования&nbsp;— вы платите только за те ресурсы, которые используете, отсутствуют капитальные затраты.</li>
+<li>Вам не нужно обслуживать или обновлять оборудование.</li>
+<li>Минимальные технические знания для настройки и использования&nbsp;— вы можете воспользоваться навыками и умениями поставщика облачных служб для обеспечения защиты, безопасности и высокой доступности рабочих нагрузок.</li>
+</ul>
+<p>Распространенный сценарий использования&nbsp;— развертывание веб-приложения или сайта блога на оборудовании и ресурсах, принадлежащих поставщику облачных служб. Благодаря общедоступному облаку в этом сценарии пользователи облака могут быстро запустить свои веб-сайты или блоги, а затем заниматься поддержкой сайта, не беспокоясь об управлении, приобретении или обслуживании оборудования, на котором этот сайт работает.</p>
+<h4 id="disadvantages">Недостатки</h4>
+<p>Однако общедоступное облако подходит не во всех сценариях. Существует ряд недостатков, которые следует обдумать.</p>
+<ul>
+<li>Возможно существование определенных требований к безопасности, которые не могут быть удовлетворены с помощью общедоступного облака.</li>
+<li>Общедоступное облако может не соответствовать каким-либо политикам правительства, отраслевым стандартам или юридическим требованиям.</li>
+<li>Вы не владеете оборудованием или службами и не можете управлять ими так, как того хотите.</li>
+<li>Могут существовать уникальные бизнес-требования, например необходимость поддержки устаревших приложений, которые трудно выполнить.</li>
+</ul>
+<section class="row">
+<div class="column span3">
+<h3 id="private-cloud">Частное облако</h3>
+<p>Модель частного облака предполагает создание облачной среды в вашем центре обработки данных и обеспечение самостоятельного доступа пользователей к корпоративным вычислительным ресурсам. Это похоже на использование общедоступного облака, но при этом вы отвечаете за закупку и обслуживание необходимого оборудования и программного обеспечения.</p>
+</div>
+<div class="column">
+<p><img src="./Введение - Learn _ Microsoft Docs_files/4-private-cloud.png" alt="Значок &quot;Частное облако&quot;" data-linktype="relative-path"></p>
+</div>
+</section>
+<h4 id="advantages">Преимущества</h4>
+<p>Такой подход дает несколько преимуществ.</p>
+<ul>
+<li>Вы можете обеспечить такую конфигурацию, которая способна поддерживать любой сценарий или устаревшее приложение.</li>
+<li>Вы можете контролировать безопасность и отвечать за нее.</li>
+<li>В частных облаках можно добиваться соблюдения строгой безопасности, соответствия или юридических требований.</li>
+</ul>
+<h4 id="disadvantages">Недостатки</h4>
+<p>Вот некоторые причины отказа организаций от модели частного облака.</p>
+<ul>
+<li>Вы несете некоторые начальные капитальные затраты и закупаете и обслуживаете соответствующее оборудование для реализации этой модели.</li>
+<li>Владение оборудованием ограничивает гибкость&nbsp;— для масштабирования необходимо приобретать, устанавливать и настраивать новое оборудование.</li>
+<li>Для запуска и поддержки частного облака требуются определенные навыки и умения в области информационных технологий.</li>
+</ul>
+<p>Один из сценариев использования частного облака°— когда у организации имеются данные, которые нельзя помещать в общедоступное облако, например по юридическим причинам. Другой пример&nbsp;— когда в соответствии с государственной политикой определенные данные должны храниться в стране или в закрытом порядке.</p>
+<p>Частное облако может предоставлять облачную функциональность как внешним клиентам, так и отдельным внутренним подразделениям, таким как бухгалтерия или отдел кадров.</p>
+<section class="row">
+<div class="column span3">
+<h3 id="hybrid-cloud">Гибридное облако</h3>
+<p>Гибридное облако&nbsp;— это комбинация общедоступного и частного облаков, позволяющая запускать приложения в наиболее подходящем расположении. Например, веб-сайт можно разместить в общедоступном облаке, связав его с хорошо защищенной базой данных, находящейся в частном облаке (или в локальном центре обработки данных).</p>
+</div>
+<div class="column">
+<p><img src="./Введение - Learn _ Microsoft Docs_files/4-hybrid-cloud.png" alt="Значок &quot;Гибридное облако&quot;" data-linktype="relative-path"></p>
+</div>
+</section>
+<p>Такая конфигурация удобна, когда некоторые ресурсы нельзя разместить в общедоступном облаке, например по юридическим причинам. В частности, это могут быть особые данные, которые нельзя размещать открыто (например, медицинские данные) и которые необходимо хранить в частном центре обработки данных. Другой пример&nbsp;— приложение, работающее на старом оборудовании, которое невозможно обновить. В этом случае можно сохранить старую систему в локальной среде и подключить ее к общедоступному облаку для авторизации или хранения данных.</p>
+<h4 id="advantages">Преимущества</h4>
+<p>Вот некоторые преимущества гибридного облака.</p>
+<ul>
+<li>Сохранение работоспособности и доступности систем, использующих устаревшее оборудование или операционные системы.</li>
+<li>Возможность выборочного размещения компонентов в облачной и локальной средах.</li>
+<li>Возможность воспользоваться преимуществами экономии за счет масштаба, получая службы и ресурсы от поставщиков облачных служб там, где это дешевле, и затем дополняя собственным оборудованием, где это не так.</li>
+<li>Возможность использования собственного оборудования для реализации сценариев безопасности, обеспечения соответствия или устаревших приложений, когда требуется полный контроль над средой.</li>
+</ul>
+<h4 id="disadvantages">Недостатки</h4>
+<p>Вот некоторые аспекты, которые необходимо учитывать:</p>
+<ul>
+<li>Гибридная конфигурация может оказаться намного дороже, чем выбор одной модели развертывания, так как подразумевает некоторые предварительные затраты CapEx.</li>
+<li>Настройка и управление такой конфигурацией может оказаться гораздо сложнее.</li>
+</ul>
+<h2 id="summary">Итоги</h2>
+<p>Облачные вычисления характеризуются гибкостью и позволяют выбрать подходящий вариант развертывания. Выбор модели облачного развертывания зависит от бюджета и требований к безопасности, масштабируемости и обслуживанию.</p>
+
+		
+		
+	</div>
+</div>
+
+						<!-- </content> -->
+
+						</main>
+
+<main id="main" role="main" class="content " data-bi-name="content" lang="ru-ru" dir="ltr">
+
+
+
+<div class="columns is-mobile is-gapless is-fixed-bottom is-hidden-tablet is-hidden-landscape has-body-background has-margin-none" id="mobile-nav">
+    <div class="column" id="previous-unit-link-mobile-col">
+        <a class="button is-fullwidth is-tertiary is-radiusless is-large has-margin-none has-inner-focus" data-bi-name="previous-unit" id="previous-unit-link-mobile" href="https://docs.microsoft.com/ru-ru/learn/modules/principles-cloud-computing/4-cloud-deployment-models/">
+            <span aria-hidden="true" class="icon docon docon-chevron-left-light"></span>
+            <span>Назад</span>
+        </a>
+    </div>
+    <div class="column" id="next-unit-link-mobile-col">
+        <a class="button is-fullwidth is-primary is-radiusless is-large has-margin-none has-inner-focus" data-bi-name="next-unit" id="next-unit-link-mobile" href="https://docs.microsoft.com/ru-ru/learn/modules/principles-cloud-computing/6-knowledge-check/">
+            <span>Следующая</span>
+            <span aria-hidden="true" class="icon docon docon-chevron-right-light"></span>
+        </a>
+    </div>
+</div>
+
+						
+
+
+						<!-- <content> -->
+							<div class="modular-content-container has-body-background box">
+	<div id="unit-inner-section" class="section is-uniform is-relative">
+		<h1 class="has-margin-right-super-large-desktop">Типы облачных служб</h1>
+		
+			<p>Когда речь идет об облачных вычислениях, следует выделить три основные категории. Очень важно понимать их назначение, так как они используются в обсуждениях, документации и учебных курсах.</p>
+<h2 id="explore-the-three-categories-of-cloud-computing">Знакомство с тремя категориями облачных вычислений</h2>
+<h4 id="iaas-versus-saas-versus-paas">IaaS, SaaS и PaaS</h4>
+<section class="row">
+<div class="column">
+<img src="./Введение - Learn _ Microsoft Docs_files/5-iaas.png" role="presentation" data-linktype="relative-path">
+</div>
+<div class="column span3">
+<h3 id="infrastructure-as-a-service-iaas">Инфраструктура как услуга (IaaS)</h3>
+<p>Инфраструктура как услуга&nbsp;— самая гибкая категория облачных служб. Она направлена на то, чтобы предоставить вам максимум контроля над оборудованием, на котором выполняется ваше приложение (серверы ИТ-инфраструктуры и виртуальные машины (ВМ), системы хранения и операционные системы). При использовании модели IaaS вам не нужно приобретать оборудование&nbsp;— вы просто арендуете его. Это инфраструктура мгновенных вычислений, подготовка и управление которой осуществляются через Интернет.</p>
+</div>
+</section>
+<div class="alert is-info">
+<p class="alert-title"><span class="docon docon-status-error-outline" aria-hidden="true"></span> Примечание</p>
+<p>При использовании IaaS за готовность службы к работе отвечают обе стороны: поставщик облачных служб несет ответственность за обеспечение правильного функционирования облачной инфраструктуры; клиент облака несет ответственность за соответствующую настройку и использование службы, ее актуальность и доступность для клиентов. Это называется <strong>моделью разделения ответственности</strong>.</p>
+</div>
+<p>IaaS обычно используется в следующих сценариях:</p>
+<ul>
+<li><p><strong>Перенос рабочих нагрузок.</strong> Как правило, оборудование IaaS управляется так же, как локальная инфраструктура, и обеспечивает простой способ перемещения существующих приложений в облако.</p>
+</li>
+<li><p><strong>Тестирование и разработка.</strong> Команды разработчиков могут быстро настраивать и демонтировать среды тестирования и разработки, ускоряя вывод на рынок новых приложений. IaaS обеспечивает быстрое и экономичное масштабирование сред тестирования и разработки.</p>
+</li>
+<li><p><strong>Хранение, резервное копирование и восстановление.</strong> Организации избавляются от капитальных затрат и сложности управления хранением данных, для которого обычно требуется штат высококвалифицированных специалистов, способных управлять данными и обеспечить соответствие нормативным и законодательным требованиям. Модель IaaS удобно использовать в ситуациях с непредсказуемым спросом и стабильно растущими потребностями в хранении. Кроме того, IaaS позволяет упростить планирование, а также управление системами резервного копирования и восстановления.</p>
+</li>
+</ul>
+<section class="row">
+<div class="column">
+<img src="./Введение - Learn _ Microsoft Docs_files/5-paas.png" role="presentation" data-linktype="relative-path">
+</div>
+<div class="column span3">
+<h3 id="platform-as-a-service-paas">Платформа как услуга (PaaS)</h3>
+<p>Модель PaaS предоставляет среду для сборки, тестирования и развертывания программных приложений. PaaS предназначена для быстрого создания приложений без необходимости управления базовой инфраструктурой. Например, при развертывании веб-приложения с помощью PaaS не требуется устанавливать операционную систему, веб-сервер или даже системные обновления.</p>
+</div>
+</section>
+<p>PaaS представляет собой полную среду разработки и развертывания в облаке, ресурсы которой позволяют организациям предоставлять весь спектр услуг&nbsp;— от простых облачных приложений до сложных корпоративных приложений с поддержкой облака. Ресурсы приобретаются у поставщика облачных служб с оплатой по мере использования, и доступ к ним предоставляется через защищенное подключение к Интернету.</p>
+<p>PaaS обычно используется в следующих сценариях.</p>
+<ul>
+<li><p><strong>Платформа разработки.</strong> PaaS предоставляет платформу, на основе которой можно создавать и настраивать облачные приложения. Как и макрос для Microsoft Excel, PaaS позволяет разработчикам создавать приложения с помощью встроенных компонентов программного обеспечения. Включены такие облачные функции, как масштабирование, обеспечение высокой доступности и поддержка мультитенантного режима, что позволяет писать меньше кода при разработке.</p>
+</li>
+<li><p><strong>Бизнес-аналитика.</strong> Инструменты, предоставляемые PaaS в виде услуги, позволяют организациям проводить интеллектуальный анализ своих данных. Организации могут получать аналитические сведения и схемы для прогнозирования результатов в целях принятия более обоснованных бизнес-решений, связанных с прогнозами, разработкой продуктов и окупаемостью инвестиций.</p>
+</li>
+</ul>
+<section class="row">
+<div class="column">
+<img src="./Введение - Learn _ Microsoft Docs_files/5-saas.png" role="presentation" data-linktype="relative-path">
+</div>
+<div class="column span3">
+<h3 id="software-as-a-service-saas">Программное обеспечение как услуга (SaaS)</h3>
+<p>SaaS — это централизованно размещенное и управляемое программное обеспечение для конечных пользователей. Обычно оно основано на архитектуре, когда для всех клиентов используется одна версия приложения и лицензируется по ежемесячной или ежегодной подписке. Отличные примеры программного обеспечения SaaS°— Office 365, Skype и Dynamics CRM Online.</p>
+</div>
+</section>
+<h2 id="cost-and-ownership">Затраты и стоимость владения</h2>
+<div class="mx-tableFixed">
+<div class="table-scroll-wrapper"><table class="table"><caption class="visually-hidden">Таблица 1</caption>
+<thead>
+<tr>
+<th></th>
+<th>IaaS</th>
+<th>PaaS</th>
+<th>SaaS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Начальные капиталовложения</td>
+<td>Начальные капиталовложения отсутствуют. Пользователи платят только за то, что они используют.</td>
+<td>Начальные капиталовложения отсутствуют. Пользователи платят только за то, что они используют.</td>
+<td>Пользователи не несут никакие первоначальные расходы; они оплачивают подписки, обычно на ежемесячной или ежегодной основе.</td>
+</tr>
+<tr>
+<td>Ответственность пользователя</td>
+<td>Пользователь отвечает за покупку, установку, настройку собственных программных операционных систем, ПО промежуточного слоя и приложений, а также за управление ими.</td>
+<td>Пользователь несет ответственность за разработку собственных приложений. Однако он не отвечает за управление сервером или инфраструктурой. Это позволяет сосредоточиться на приложении или рабочей нагрузке, которую нужно запустить.</td>
+<td>Пользователи просто используют прикладные программы; они не отвечают ни за обслуживание программного обеспечения, ни за управление им.</td>
+</tr>
+<tr>
+<td>Ответственность поставщика облачных служб</td>
+<td>Поставщик облачных служб несет ответственность за доступность базовой облачной инфраструктуры (такой как виртуальные машины, хранилища и сети) для пользователя.</td>
+<td>Поставщик облачных служб отвечает за управление операционными системами, а также конфигурацию сетей и служб. Поставщики облачных служб обычно несут ответственность за все, кроме приложения, которое планирует запустить пользователь. Они предоставляют полностью управляемую платформу для запуска приложения.</td>
+<td>Поставщик облачных служб отвечает за подготовку, управление и обслуживание программного обеспечения приложения.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<h2 id="management-responsibilities">Обязанности управления</h2>
+<p>Необходимо учитывать, что эти категории являются уровнями, располагающимися друг над другом. Например, PaaS размещается на базе IaaS, обеспечивая уровень абстракции. Абстракция позволяет скрывать сведения, на которые можно не обращать внимания, и, следовательно, быстрее создавать код. Но здесь есть и недостаток&nbsp;— вы в меньшей степени контролируете базовое оборудование. На приведенном ниже рисунке представлен список ресурсов, которыми управляете вы и которыми управляет ваш поставщик услуг, в каждой категории облачной службы.</p>
+<div class="mx-imgBorder"><p>
+<img src="./Введение - Learn _ Microsoft Docs_files/5-layer-diagram.png" alt="На рисунке показан уровень абстракции в каждой категории облачной службы." aria-describedby="64e2f" data-linktype="relative-path">
+</p><div id="64e2f" class="visually-hidden">
+<div class="codeHeader" id="code-try-0" data-bi-name="code-header"><span class="language"></span><button type="button" class="action is-relative" data-bi-name="copy" aria-label="Копировать код">
+				<span class="icon">
+					<span class="docon docon-edit-copy" role="presentation"></span>
+				</span>
+				<span>Копировать</span>
+				<div class="successful-copy-alert is-absolute has-right-zero has-top-zero has-left-zero has-bottom-zero is-flex has-flex-align-items-center has-flex-justify-content-center has-text-success-invert has-background-success is-transparent" aria-hidden="true">
+					<span class="icon is-size-4">
+						<span class="docon docon-check-mark" role="presentation"></span>
+					</span>
+				</div>
+			</button></div><pre tabindex="0" class="has-inner-focus"><code data-author-content="В первом столбце, для локальной инфраструктуры, отображаются все элементы, которыми вы управляете. Во втором столбце — инфраструктура как услуга — виртуализация, серверы, хранилище и сеть переданы поставщику облачных услуг. В третьем — платформа как услуга — среда выполнения, ПО промежуточного слоя и ОС переданы поставщику облачных услуг. В четвертом — программное обеспечение как услуга — все элементы переданы поставщику облачных служб, причем приложения и данные перемещаются последними.
+">В первом столбце, для локальной инфраструктуры, отображаются все элементы, которыми вы управляете. Во втором столбце&nbsp;— инфраструктура как услуга&nbsp;— виртуализация, серверы, хранилище и сеть переданы поставщику облачных услуг. В третьем&nbsp;— платформа как услуга&nbsp;— среда выполнения, ПО промежуточного слоя и ОС переданы поставщику облачных услуг. В четвертом&nbsp;— программное обеспечение как услуга&nbsp;— все элементы переданы поставщику облачных служб, причем приложения и данные перемещаются последними.
+</code></pre>
+</div>
+<p></p></div>
+<ul>
+<li>Из всех облачных служб IaaS требуется наибольшее управление пользователями. Пользователь несет ответственность за управление операционными системами, данными и приложениями.</li>
+<li>PaaS требуется меньшее управление пользователями. Поставщик облачных служб управляет операционными системами, а пользователь отвечает за приложения и данные°— за их выполнение и хранение.</li>
+<li>SaaS требуется наименьший объем управления. Поставщик облачных услуг отвечает за все управление, а конечный пользователь просто использует программное обеспечение.</li>
+</ul>
+<h2 id="combine-cloud-services-to-fit-your-needs">Объединение облачных служб в соответствии с потребностями</h2>
+<p>Каждая модель IaaS, PaaS и SaaS поддерживает различные уровни управляемых служб. Можно использовать сочетание этих типов инфраструктуры. На компьютерах организации можно установить Office&nbsp;365 (SaaS), а в Azure можно разместить виртуальные машины (IaaS) и использовать базы данных SQL Azure (PaaS) для хранения данных. Благодаря гибкости облачной среды можно реализовать любую комбинацию, позволяющую добиться максимального результата.</p>
+
+		
+		
+	</div>
+</div>
+
+						<!-- </content> -->
+
+						</main><main id="main" role="main" class="content " data-bi-name="content" lang="ru-ru" dir="ltr">
+
+
+
+<div class="columns is-mobile is-gapless is-fixed-bottom is-hidden-tablet is-hidden-landscape has-body-background has-margin-none" id="mobile-nav"><div class="column is-fullwidth">
+		<a href="https://docs.microsoft.com/learn/modules/principles-cloud-computing/6-knowledge-check/" id="complete-unit-link-mobile" class="button is-fullwidth is-primary is-radiusless is-large has-margin-none is-hidden-desktop is-hidden-tablet" data-bi-name="continue">
+			<span>Вернуться, чтобы завершить</span>
+		</a></div></div>
+
+						
+
+
+						<!-- <content> -->
+							<div class="modular-content-container has-body-background box">
+	<div id="unit-inner-section" class="section is-uniform is-relative">
+		<h1 class="has-margin-right-super-large-desktop">Итоги</h1>
+		
+			<p>В этом модуле вы узнали об облачных вычислениях, что это такое и каковы их ключевые особенности. Были рассмотрены, в частности, следующие моменты.</p>
+<ul>
+<li>Различные типы доступных облачных моделей и аспекты использования этих разных моделей.</li>
+<li>Некоторые основные термины и понятия, такие как высокий уровень доступности, гибкость, эластичность, отказоустойчивость и CapEx в сравнении с OpEx.</li>
+<li>Различные доступные облачные службы, преимущества использования разных типов и ответственность управления для каждого типа службы.</li>
+<li>Облачные модели, такие как общедоступные, частные и гибридные, и ключевые характеристики каждой модели.</li>
+<li>Разные типы доступных облачных служб: IaaS, PaaS и SaaS; ключевые характеристики каждой службы и причины выбора той или иной службы.</li>
+</ul>
+<p><img src="./Введение - Learn _ Microsoft Docs_files/7-heading.png" alt="Вилка, вставленная в розетку, что указывает на подачу питания" data-linktype="relative-path"></p>
+<h3 id="microsoft-azure">Microsoft Azure</h3>
+<p>Azure&nbsp;— это платформа облачных вычислений Майкрософт. Azure предоставляет более 100&nbsp;служб, позволяющих решать любые задачи: от запуска существующих приложений в виртуальных машинах до освоения новых парадигм программного обеспечения, таких как интеллектуальные боты и смешанная реальность.</p>
+<p>Вот лишь некоторые службы, имеющиеся в Azure:</p>
+<ul>
+<li><strong>вычислительные</strong> службы, например виртуальные машины и контейнеры для запуска приложений;</li>
+<li>службы <strong>баз данных</strong>, поддерживающие реляционные базы данных и NoSQL;</li>
+<li>службы <strong>идентификации</strong>, помогающие проверять подлинность пользователей и защищать их;</li>
+<li><strong>сетевые</strong> службы для подключения вашего центра обработки данных к облаку, обеспечения высокой доступности или размещения домена DNS;</li>
+<li>решения для <strong>хранения данных</strong>, которые позволяют размещать большие объемы структурированных и неструктурированных данных;</li>
+<li>службы <strong>ИИ и машинного обучения</strong> для анализа данных, текста и изображений, распознавания речи и прогнозирования на основе данных, вносящие кардинальные изменения в аграрный и медицинский секторы, а также многие другие отрасли;</li>
+<li>множество других решений.</li>
+</ul>
+
+
+
+
+
+		
+		
+	</div>
+</div>
+
+						<!-- </content> -->
+
+						</main><!-- recommended content page section -->
+
+
+						<!-- end recommended content page section -->
+
+						<!-- page rating section -->
+						<!-- end page rating section -->
+
+
+
+						<!-- feedback section -->
+
+						<!-- end feedback section -->
+
+						<!-- feedback report section -->
+						<!-- end feedback report section -->
+
+						<div class="footerContainer is-visible-interactive has-default-focus  has-border-top has-margin-none">
+<footer id="footer-interactive" data-bi-name="footer" class="footer-layout">
+
+    <div class="is-flex is-full-height has-padding-right-extra-large-desktop">
+			<a data-mscc-ic="false" class="locale-selector-link has-flex-shrink-none" href="https://docs.microsoft.com/ru-ru/locale?target=https://docs.microsoft.com/ru-ru/learn/modules/principles-cloud-computing/1-introduction" data-bi-name="select-locale"><span class="icon docon docon-world is-size-4 has-margin-right-small" aria-hidden="true"></span><span class="local-selector-link-text">Русский</span></a>
+		<div class="has-margin-left-medium has-margin-right-medium has-flex-shrink-none">
+<div class="dropdown has-caret-up">
+	<button class="dropdown-trigger button is-transparent is-small is-icon-only-touch has-inner-focus theme-dropdown-trigger" aria-controls="theme-menu-interactive" aria-expanded="false" title="Тема" data-bi-name="theme">
+		<span class="icon">
+			<span class="docon docon-sun" aria-hidden="true"></span>
+		</span>
+		<span>Тема</span>
+	</button>
+	<div class="dropdown-menu" id="theme-menu-interactive" role="menu">
+		<ul class="theme-selector has-padding-small">
+			<li class="theme is-block">
+				<button class="button is-text is-small theme-control is-fullwidth has-flex-justify-content-start" data-theme-to="light">
+					<span class="theme-light has-margin-right-small">
+						<span class="theme-selector-icon css-variable-support has-border is-inline-block has-body-background" aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background"></rect>
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary"></rect>
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary"></rect>
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary"></rect>
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary"></rect>
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary"></rect>
+							</svg>
+						</span>
+					</span>
+					<span role="menuitem">
+Светлая					</span>
+				</button>
+			</li>
+			<li class="theme is-block">
+				<button class="button is-text is-small theme-control is-fullwidth has-flex-justify-content-start" data-theme-to="dark">
+					<span class="theme-dark has-margin-right-small">
+						<span class="has-border theme-selector-icon css-variable-support is-inline-block has-body-background" aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background"></rect>
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary"></rect>
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary"></rect>
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary"></rect>
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary"></rect>
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary"></rect>
+							</svg>
+						</span>
+					</span>
+					<span role="menuitem">
+Темная					</span>
+				</button>
+			</li>
+			<li class="theme is-block">
+				<button class="button is-text is-small theme-control is-fullwidth has-flex-justify-content-start" data-theme-to="high-contrast">
+					<span class="theme-high-contrast has-margin-right-small">
+						<span class="has-border theme-selector-icon css-variable-support is-inline-block has-body-background" aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background"></rect>
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary"></rect>
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary"></rect>
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary"></rect>
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary"></rect>
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary"></rect>
+							</svg>
+						</span>
+					</span>
+					<span role="menuitem">
+Высокая контрастность					</span>
+				</button>
+			</li>
+		</ul>
+	</div>
+</div>		</div>
+	</div>
+
+    <ul class="links" data-bi-name="footerlinks">
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/ru-ru/previous-versions/" data-bi-name="archivelink">Документация по предыдущей версии</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/ru-ru/teamblog" data-bi-name="bloglink">Блог</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/ru-ru/contribute" data-bi-name="contributorGuide">Участие в доработке</a></li>
+				<li><a data-mscc-ic="false" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-bi-name="privacy">Конфиденциальность и файлы cookie</a></li>
+		<li><a data-mscc-ic="false" href="https://docs.microsoft.com/ru-ru/legal/termsofuse" data-bi-name="termsofuse">Условия использования</a></li>
+			<li><a data-mscc-ic="false" href="https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/EN-US.aspx" data-bi-name="trademarks">Товарные знаки</a></li>
+		<li>© Microsoft 2020</li>
+    </ul>
+</footer>
+						</div>
+					</div>
+
+
+					<!--end of div.columns -->
+				</div>
+
+			<!--end of .primary-holder -->
+			</section>
+
+			<aside id="interactive-container" class="interactive-container is-visible-interactive column has-body-background-dark ">
+			</aside>
+		</div>
+
+		<!--end of .mainContainer -->
+	</div>
+
+	<div id="openFeedbackContainer" class="openfeedback-container"></div>
+
+	
+
+	<div id="action-panel" role="region" aria-label="Панель действий" class="action-panel has-default-focus" tabindex="-1" aria-expanded="false"></div>
+
+
+<div at-magnifier-wrapper=""><div class="at-theme-light"><div class="at-base notranslate" translate="no"></div></div></div></body></html>
